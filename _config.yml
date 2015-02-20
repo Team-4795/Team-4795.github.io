@@ -1,0 +1,8 @@
+name: "Eastbots Website"
+description: "The new website of FRC team 4795"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
