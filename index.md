@@ -1,6 +1,6 @@
 ---
 title: This is my title
-layout: post
+layout: home
 ---
 
 Here is my page.
