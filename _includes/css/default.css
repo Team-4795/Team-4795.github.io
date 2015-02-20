@@ -18,3 +18,15 @@ img.center {
 #title {
   text-align: center;
 }
+
+#first {
+  margin: 0 auto;
+  width: 80%;
+}
+
+cite {
+  position: relative;
+  display: block;
+  text-align: left;
+
+}
