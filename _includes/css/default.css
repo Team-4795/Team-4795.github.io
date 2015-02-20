@@ -1,15 +1,20 @@
 img.center {
+
   display: block;
+  height: 500px;
   margin: 0 auto;
 }
 
 .carousel {
   display: block;
   margin: 0 auto;
-
+  height: 500px;
 
 }
 
+.carousel-inner {
+  height: 500px;
+}
 #title {
   text-align: center;
 }
