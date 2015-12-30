@@ -10,6 +10,10 @@
 		padding-top: 50px;
 		padding-bottom: 20px;
 	}
+	.starter-template {
+		padding: 40px 15px;
+		text-align: center;
+	}
 	</style>
 
   <body>
@@ -19,9 +23,9 @@
 
 	<div class="container">
 
-	  <div class="starter-template">
-		<h1>Bootstrap starter template</h1>
-		<p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+	  <div class="starter-template" id="post">
+		<h2>{{ page.title }} - {{ page.date | date_to_string }}</h2>
+		{{ content }}
 	  </div>
 
 	</div><!-- /.container -->
