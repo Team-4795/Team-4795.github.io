@@ -1,0 +1,15 @@
+---
+title: We Came, We Built, We Conquered... Sort of.
+layout: post
+author: Annie
+---
+
+Well, we got the "went to Kickoff" part checked off. Building? Yeah, we're working on that. 
+
+Anyways, welcome to build season! We've got our challenge, and now we have 6 weeks to put together an awesome robot to compete. Due to the sudden craze for pneumatic wheels on AndyMark, we're holding off on the actual build, and instead, focusing on prototyping with the old chassis and what we have. Of course, we can't forget the actual mathematical calculations for said prototyping. 
+
+<img src="{{ site.url }}/assets/calculationfun.jpg" alt="..." class="center" style="height: 500px;">
+
+So that wraps up week one! We got lots of design done, and hopefully we'll get to more productivity next week!
+
+Quote of the week: "Either eat the free food that you have been given, or it will be calorically enforced"
