@@ -12,7 +12,7 @@ For the first time in forever, we made it into the elimination rounds in FRC. Th
 
 Everyone did really well; for once, everyone actually knew what was supposed to be done. There was this one moment when the arm got bent that really worried me, but thankfully we got the replacement arm up in less than fifteen minutes in the queuing hallway. Really good job, team. 
 
-<img src="{{ site.url }}/assets/deathmunchkin.jpg" alt="..." class="center" style="height: 500px;">
+<img src="{{ site.url }}/assets/deathmuchkin.jpg" alt="..." class="center" style="height: 500px;">
 
 Congratulations to our alliances in the finals as well. Shoutouts to team 5190, Green Hope Falcons, and team 587, Hedgehogs. The alliance did amazing, only losing the first match by one point (99-100), winning the second, and only barely losing the third round. 
 
