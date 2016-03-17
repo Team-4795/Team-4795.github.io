@@ -22,4 +22,6 @@ We'll be competing at the Week 5 competition at Campbell University/ Johnston Co
 
 Make sure you watch videos of our matches (all up on youtube) and check out photos of competition on our facebook page!
 
-Quote of the season: "All hail Laura, Supreme Leader of the Fifth Alliance, Wake District."
+Quote of the season: "All hail Laura, Supreme Commander of the Fifth Allied Forces, Wake District."
+
+Other quote: "Sketchy at best, illegal at worst"
