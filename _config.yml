@@ -5,4 +5,5 @@ paginate: 10
 
 markdown: rdiscount
 permalink: pretty
-pygments: true
+highlighter: pygments
+gems: [jekyll-paginate]
