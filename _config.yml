@@ -3,7 +3,6 @@ description: "The new website of FRC team 4795"
 
 paginate: 10
 
-markdown: rdiscount
 permalink: pretty
 highlighter: pygments
 gems: [jekyll-paginate]
