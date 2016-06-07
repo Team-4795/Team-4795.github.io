@@ -12,3 +12,5 @@ In our third year, team 4795 designed and built a robot to adhere to the challen
 In the 2015-2016 season, Eastbots grew to almost double its previous members and as a result of the team’s very first elections, 4795 was able to reach new goals in fundraising, outreach, and organization. The game in 2016 was FIRST Stronghold and due to a new format of tournaments we made it to the quarterfinals in both of our district tournaments and qualified for states, where we were team captain of the 3rd place alliance, the highest ranking we have ever gotten. 
 
 In the future we look to grow our team to more than just engineers and programmers, to start our own FIRST Lego League team in the CHCCS area and to compete at THOR for stronghold and in next year’s game.
+
+<img src="/assets/about/4thYearBot.jpg"/>
