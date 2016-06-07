@@ -1,0 +1,32 @@
+img.center {
+
+  display: block;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.carousel {
+  display: block;
+  margin: 0 auto;
+  height: 500px;
+
+}
+
+.carousel-inner {
+  height: 500px;
+}
+#title {
+  text-align: center;
+}
+
+#first {
+  margin: 0 auto;
+  width: 80%;
+}
+
+cite {
+  position: relative;
+  display: block;
+  text-align: left;
+
+}
