@@ -4,5 +4,5 @@ description: "The new website of FRC team 4795"
 paginate: 10
 
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 gems: [jekyll-paginate]
