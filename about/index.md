@@ -1,5 +1,5 @@
 ---
-title: Team 4795
+title: Team 4795 - About
 layout: standard
 ---
 
@@ -13,4 +13,4 @@ In the 2015-2016 season, Eastbots grew to almost double its previous members and
 
 In the future we look to grow our team to more than just engineers and programmers, to start our own FIRST Lego League team in the CHCCS area and to compete at THOR for stronghold and in next year’s game.
 
-<img src="/assets/about/4thYearBot.jpg" height="400" width="640">
+<img src="/assets/about/4thYearBot.jpg" height="400" width="640" align="middle">
