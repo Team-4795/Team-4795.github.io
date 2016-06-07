@@ -14,7 +14,7 @@
         
         .starter-template {
             padding: 40px 15px;
-            text-align: right;
+            text-align: left;
         }
     </style>
 </head>
@@ -27,7 +27,7 @@
     <!-- Main body -->
     <div class="container">
         <div class="starter-template" id="post">
-            <h2>{{ page.title }}</h2> {{ content }}
+            <h2 align="center">{{ page.title }}</h2> {{ content }}
         </div>
 
         {% include footer.html %}
