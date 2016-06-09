@@ -24,3 +24,6 @@ layout: examplelayout
 ```
 
 Inside of the `_includes` directory, create a file called `examplelayout.html` and write the page as normal with references to the `index.md` file inlcuded as per [Jekyll syntax](https://jekyllrb.com/docs/home/ "Jekyll Documentation"). Upon building, Jekyll will build the website in the `_site` directory as a combination of these files. **Do not** edit the files in this directory directly unless you are certain of what you are doing.
+
+## Analytics
+The website uses Google Analytics to track analytic data.
