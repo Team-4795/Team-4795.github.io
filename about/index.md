@@ -7,6 +7,8 @@ layout: standard
 <img src="/assets/about/team_photo_state_champs_2016.jpg" height="400" width="640">
 </center>
 
+<p></p>
+
 In fall of 2012, the Eastbots began in Chapel Hill, North Carolina at East Chapel Hill High School as a team of 8 people and 2 dedicated mentors who worked hard to develop our first ever robot. That competition season (2012-2013) we competed at NC FIRST’s Ultimate Ascent and paved a path for future members to follow.
 
 The next year, in the 2013-2014 season, Eastbots began to expand, with more people joining and becoming dedicated members. The team competed in the FIRST Aerial Assist regional tournament and in autumn of 2014 we reached new heights as we placed with an alliance of two other teams in 2nd at an off-season event called THOR.
