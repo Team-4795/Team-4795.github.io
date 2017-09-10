@@ -13,8 +13,6 @@ We give the greatest thanks to the following distinguished sponsors as without t
 <br>
 <br>
 <br>
-<br>
-<br>
 
 SIM-RTP has promoted technology and education for 20 years and allows a diverse and experienced membership of IT professionals to communicate and learn. They first sponsored us in 2016 and have continued to ever since, making them our primary sponsor. We have visited SIM-RTP to present on FRC and our team’s progress twice, and hope to continue to in the future.
 
