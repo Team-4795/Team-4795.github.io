@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    {% include head.html %}
+
+    <style>
+      /* Move down content because we have a fixed navbar that is 50px tall */
+      
+      body {
+      padding-top: 50px;
+      padding-bottom: 20px;
+      }
+      
+      .starter-template {
+      padding: 40px 15px;
+      text-align: left;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Navigation bar -->
+    {% include nav.html %}
+
+    <!-- Main body -->
+    <div class="row">
+      <div class="col-md-6">
+        {{ content }}
+      </div>
+      <div class="col-md-6">
+	
+	<center>
+	  <img src="/assets/sponsors/simbois.png" height="481" width="937">
+	</center>
+	
+	<center>
+	  <img src="/assets/sponsors/wildcats.png" height="139" width="480">
+	</center>
+	
+	<center>
+	  <img src="/assets/sponsors/ten-thousand-villages.jpg" height="425" width="450">
+	</center>
+
+      </div>
+    </div>
+    <hr> {% include footer.html %}
+</div>
+<!-- /.container -->
+
+{% include end.html %}
+
+</body>
+
+</html>
