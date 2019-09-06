@@ -4,12 +4,20 @@
 
 This is the website for the Eastbots robotics team. The website can be found at http://eastbots.com/.
 
-The website is depended upon [Jekyll](https://jekyllrb.com/ "Jekyll Homepage"). If you are unfamiliar with this and wish to edit, it is recommended that you familiarize yourself. A working knowledge of HTML, Markdown, and CSS is also necessary. [Git](https://git-scm.com/ "Git Homepage") is used for version control.
+The website is depended upon [Jekyll](https://jekyllrb.com/ "Jekyll
+Homepage"). If you are unfamiliar with this and wish to edit, it is
+recommended that you familiarize yourself. A working knowledge of
+Markdown is required; knowledge of HTML and CSS is also helpful
+[Git](https://git-scm.com/ "Git Homepage")
+is used for version control.
 
 ## Editing Practices
 
 ### Images
-All images are found in the `assets` folder. When uploading images for a specific website or blog post, please create a special and clearly marked folder within `assets`.
+
+All images are found in the `assets` folder. When uploading images for
+a specific website or blog post, please create a special and clearly
+marked folder within `assets`.
 
 To add images to the front page carousel, place them in `assets/carousel`. Amal's wonderful programming will take care of the rest.
 
@@ -27,3 +35,43 @@ Inside of the `_includes` directory, create a file called `examplelayout.html` a
 
 ## Analytics
 The website uses Google Analytics to track analytic data.
+
+## Previewing changes on your local machine before committing
+
+### One-time setup
+
+To prepare your local computer for testing the website without doing the git
+commit and etc, First install ruby if you don't have it already.
+On RHEL/CentOS/Fedora, run this:
+
+	sudo yum install ruby-devel
+
+On Debian/Ubuntu, I think this is right:
+	sudo apt-get update
+	sudo apt-get install ruby ruby-dev
+	
+Then following https://jekyllrb.com/resources , run:
+
+	gem install bundler jekyll
+
+also probably required:
+
+	gem install github-pages
+
+### Testing each website change
+
+Before comitting, run this command to build a local copy of the site
+and run a local server for testing:
+
+	bundle exec jekyll serve
+
+then point your browser to whatever it says, typically http://localhost:4000
+
+to rebuild site:
+
+	bundle exec jekyll build
+
+to clean up generated files after doing a local build, run
+
+   	bundle exec jekyll clean
+
