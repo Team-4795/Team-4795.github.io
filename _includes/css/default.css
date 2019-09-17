@@ -55,3 +55,10 @@ cite {
         color: white;
 }
 
+.icon-bar {
+    display: block;
+    background-color: white;
+    width: 20px;
+    height: 3px;
+    margin: 3px;
+}
