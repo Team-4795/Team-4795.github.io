@@ -1,0 +1,26 @@
+@media (max-aspect-ratio: 5/4) {
+    #page-wrapper {
+        background-size: auto 100% !important;
+    }
+}
+
+@media (max-width: 768px) {
+	#info-card {
+		width: 75% !important;
+	}
+}
+
+#page-wrapper {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-image: url('/assets/robot2019.jpg');
+	background-color: lightblue;
+}
+
+#info-card {
+	margin: 0px auto;
+	width: 50%;
+	background-color: rgba(255, 255, 255, 0.7);
+}

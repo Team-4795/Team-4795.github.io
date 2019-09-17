@@ -1,144 +1,23 @@
-
+<!--home.html-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-	{% include head.html %}
-
-	<style>
-	/* Move down content because we have a fixed navbar that is 50px tall */
-
-	    body {
-            padding-top: 50px;
-            padding-bottom: 20px;
-        }
-
-
-	
-	</style>
+{% include head.html %}
+<style>
+{% include css/home.css %}
+</style>
 </head>
-
 <body>
-			<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-	{% include nav.html %}
-
-	<!-- Main jumbotron for a primary marketing message or call to action -->
-	<div class="jumbotron">
-
-		<div class="container">
-			<h1 id="title">{{ page.title }}</h1>
-			<br/><br/>
-			<div class="row">
-				<div class="col-md-4">
-					<div id="content">
-						{{content}}
-					</div>
-				</div>
-				<div class="col-md-8">
-					<div id="pictures">
-						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-							<!-- Indicators -->
-							<ol id="carousel-indicators" class="carousel-indicators">
-                                {% assign counter = 0 %}
-                                {% for image in site.static_files %}
-                                    {% if image.path contains 'carousel' %}
-                                        <li data-target="#carousel-example-generic" data-slide-to="{% increment counter %}"></li>
-
-                                    {% endif %}
-                                {% endfor %}
-							</ol>
-
-							<!-- Wrapper for slides -->
-							<div id="carousel" class="carousel-inner" role="listbox">
-
-								{% for image in site.static_files %}
-                                    {% if image.path contains 'carousel' %}
-                                            <div class="item" id="image_{{ loopindex }}">
-                                                <img src="{{ site.baseurl }}{{ image.path }}" alt="..." class="center"/>
-                                                <div class="carousel-caption"></div>
-                                            </div>
-                                    {% endif %}
-                                {% endfor %}
-
-
-							</div>
-
-							<!-- Controls -->
-							<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+  <div id="page-wrapper" class="container-fluid p-0">
+    {% include nav.html %}
+    <div id="info-card" class="card shadow-sm">
+      <div class="card-body">
+	<div class="card-text">
+	  {{ content }}
 	</div>
-	<div class="container">
-		<!-- Example row of columns -->
-		<div class="row">
-			<div class="col-md-4">
-				<h2>Recent posts</h2>
-				<ul>
-					<div class="fb-page" data-href="https://www.facebook.com/eastbots/" 
-					     data-tabs="timeline" data-small-header="true" 
-					     data-adapt-container-width="true" 
-					     data-hide-cover="false" 
-					     data-show-facepile="true"><blockquote 
-					     cite="https://www.facebook.com/eastbots/" class="fb-xfbml-parse-ignore"><a 
-					     href="https://www.facebook.com/eastbots/">Eastbots - FRC Team 4795</a></blockquote>
-					</div> 
-  					
-					{% for post in site.posts %}
-					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-					{% endfor %}
-				</ul>
-			</div>
-			<div class="col-md-4">
-				<h2>Thanks to our Sponsors</h2>
-				<ul>
-					<li>SIM-RTP</li>
-					<li>Google</li>
-					<li>Northrop Grumman</li>
-					<li>USA Dutch</li>
-					<li>CHCCS PTSA</li>
-                    			<li>Ten Thousand Villages</li>
-					<li>Wild Bird Co</li>
-                   			<li>Many generous families!</li>
-				</ul>
-			</div>
-			<div class="col-md-4">
-				<h2>FIRST's Mission</h2>
-				<img id="first" src="/assets/FIRST.jpg"/>
-				<br><br>
-				<blockquote>"To transform our culture by creating a world where science and
-				technology are celebrated and where young people dream of becoming
-				science and technology leaders."</blockquote>
-
-				<cite>Dean Kamen, Founder</cite>
-			</div>
-		</div>
-
-		<hr>
-
-        {% include footer.html %}
-	</div> <!-- /container -->
-
-	{% include end.html %}
-    <script>
-        $($("#carousel").children()[0]).addClass("active");
-        $($("#carousel-indicators").children()[0]).addClass("active");
-    </script>
+      </div>
+ <!--   {% include footer.html %}-->
+  </div> <!-- /container -->
+   <!-- { % include end.html %} -->
 </body>
 </html>

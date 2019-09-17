@@ -1,26 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    {% include head.html %}
-
-    <style>
-        /* Move down content because we have a fixed navbar that is 50px tall */
-        
-        body {
-            padding-top: 50px;
-            padding-bottom: 20px;
-        }
-        
-        .starter-template {
-            padding: 40px 15px;
-            text-align: left;
-        }
-    </style>
+{% include head.html %}
 </head>
 
 <body>
-
+  <div id="page-wrapper" class="container-fluid p-0">
     <!-- Navigation bar -->
     {% include nav.html %}
 
@@ -34,7 +19,7 @@
     <!-- /.container -->
 
     {% include end.html %}
-
+  </div>
 </body>
 
 </html>

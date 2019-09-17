@@ -1,5 +1,16 @@
-img.center {
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
+h2 {
+        text-align: center;
+}
+
+#page-wrapper {
+        position: absolute;
+        min-height: 100vh;
+        font-family: 'Roboto', sans-serif;
+}
+
+img.center {
   display: block;
   height: 500px;
   margin: 0 auto;
@@ -28,5 +39,19 @@ cite {
   position: relative;
   display: block;
   text-align: left;
-
 }
+
+#navbar {
+    position: sticky-top;
+    background-color: rgb(150, 150, 250);
+}
+
+.navbar-item {
+        text-align: center;
+}
+
+.nav-link {
+        display: inline-block;
+        color: white;
+}
+
