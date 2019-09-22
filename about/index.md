@@ -4,7 +4,7 @@ layout: standard
 ---
 
 <center>
-<img src="/assets/about/team_photo_state_champs_2016.jpg" height="400" width="640">
+<img src="/assets/about/team_photo_state_champs_2016.jpg" height="480" width="640">
 </center>
 
 <p></p>
@@ -24,6 +24,6 @@ In the 2017-2018 season, competing in FIRST Power Up, we made Chapel Hill histor
 In the future we look to continue this development and achieve more than ever. We look to expand our team to more than just engineers and programmers as we seek people to help organization and marketing. We look to help spread STEM education to others in the Chapel Hill-Carrboro City School district by helping to start at FIRST Lego League team at a local middle school. We are confident that we can focus, hone, and continue our past success.
 
 <center>
-<img src="/assets/about/4thYearBot.jpg" height="400" width="640">
-<img src="/assets/about/state_champs_robot_work.jpg" height="400" width="640">
+<img src="/assets/about/4thYearBot.jpg" height="400" width="600">
+<img src="/assets/about/state_champs_robot_work.jpg" height="400" width="600">
 </center>
