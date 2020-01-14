@@ -1,0 +1,249 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/eastbots
+> git status -z -u
+> git show :.git/index.md
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :.git/_layouts/column.html
+> git show :.git/_includes/youtubePlayer.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :.git/about/index.md
+> git check-ignore -v -z --stdin
+> git show :.git/index.md
+> git show :.git/old-index.md
+> git show :.git/index.md
+> git show :.git/description
+> git show :.git/config
+> git show :.git/CNAME
+> git show :.git/.gitignore
+> git show :.git/_config.yml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :.git/about/index.md
+> git show :.git/about/_site/index.html
+> git show :.git/about/index.md
+> git show :.git/about/_site/index.html
+> git show :.git/about/index.md
+> git show :.git/about/_site/index.html
+> git check-ignore -v -z --stdin
+> git show :.git/contact/index.md
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :.git/info/exclude
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :.git/robots/_site/index.html
+> git show :.git/about/_site/aboutfrc.html
+> git check-ignore -v -z --stdin
+> git show :.git/about/_site/index.html
+> git show :.git/about/_site/aboutfrc.html
+> git show :.git/about/index.md
+> git show :.git/about/_site/index.html
+> git show :.git/about/_site/aboutfrc.html
+> git show :.git/about/_site/aboutfrc.md
+> git check-ignore -v -z --stdin
+> git show :.git/about/index.md
+> git show :.git/about/_site/aboutfrc.md
+> git show :.git/about/_site/index.html
+> git show :.git/about/_site/aboutfrc.md
+> git show :.git/about/_site/index.html
+> git show :.git/about/index.md
+> git show :.git/about/_site/aboutfrc.md
+> git show :.git/about/aboutfrc.md
+> git check-ignore -v -z --stdin
+> git show :.git/about/index.md
+> git show :.git/about/aboutfrc.md
+> git show :.git/about/_site/index.html
+> git show :.git/about/aboutfrc.md
+> git show :.git/about/_site/index.html
+> git show :.git/about/aboutfrc.md
+> git show :.git/about/index.md
+> git show :.git/about/aboutfrc.md
+> git show :.git/about/index.md
+> git show :.git/about/aboutfrc.md
+> git show :.git/about/aboutdepts.md
+> git check-ignore -v -z --stdin
+> git show :.git/about/index.md
+> git show :.git/about/aboutfrc.md
+> git show :.git/about/aboutdepts.md
+> git show :.git/about/aboutfrc.md
+> git show :.git/about/aboutdepts.md
+> git show :.git/about/index.md
+> git show :.git/index.md
+> git show :.git/about/index.md
+> git show :.git/index.md
+> git show :.git/about/aboutfrc.md
+> git show :.git/about/aboutdepts.md
+> git show :.git/about/aboutfrc.md
+> git show :.git/about/index.md
+> git show :.git/about/aboutfrc.md
+> git show :.git/about/aboutdepts.md
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :.git/_layouts/home.html
+> git show :.git/_layouts/oldhome.html
+> git show :.git/_layouts/home.html
+> git show :.git/_layouts/standard.html
+> git show :.git/_layouts/post.html
+> git show :.git/_includes/_site/head.html
+> git show :.git/_includes/_site/footer.html
+> git show :.git/_includes/_site/end.html
+> git show :.git/about/aboutdepts.md
+> git add -A -- .
